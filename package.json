@@ -7,6 +7,7 @@
     "@vitejs/plugin-react-swc": "^3.11.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "lovable-tagger": "^1.1.9",
     "lucide-react": "^0.263.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
