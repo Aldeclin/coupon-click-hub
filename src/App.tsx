@@ -3,9 +3,11 @@ import { Toaster } from "@/components/ui/toaster"
 import Index from "@/pages/Index"
 
 function App() {
+  console.log("App component is rendering");
+  
   return (
     <Router>
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen">
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
