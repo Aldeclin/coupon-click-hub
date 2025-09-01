@@ -20,17 +20,17 @@ export const useAuth = () => {
 };
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [user, setUser] = useState<any | null>(null);
-  const [session, setSession] = useState<any | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [user] = useState<any | null>(null);
+  const [session] = useState<any | null>(null);
+  const [loading] = useState(false);
 
-  const signIn = async (email: string, password: string) => {
+  const signIn = async (email: string, _password: string) => {
     // Placeholder implementation
     console.log('SignIn:', email);
     return { error: null };
   };
 
-  const signUp = async (email: string, password: string, fullName?: string) => {
+  const signUp = async (email: string, _password: string, fullName?: string) => {
     // Placeholder implementation
     console.log('SignUp:', email, fullName);
     return { error: null };
